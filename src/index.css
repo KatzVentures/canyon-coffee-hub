@@ -1,5 +1,5 @@
+/* Base reset and theme variables - Tailwind v4 Vite plugin bypassed due to server crash */
 @import "tailwindcss";
-@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
