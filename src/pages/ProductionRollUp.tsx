@@ -115,20 +115,20 @@ export function ProductionRollUp() {
                 <Bar
                   dataKey="actual"
                   name="Actual"
-                  fill="oklch(0.35 0.08 40)"
+                  fill="hsl(20, 55%, 28%)"
                   radius={[4, 4, 0, 0]}
                 />
                 <Bar
                   dataKey="planned"
                   name="Planned"
-                  fill="oklch(0.74 0.09 65)"
+                  fill="hsl(35, 40%, 55%)"
                   radius={[4, 4, 0, 0]}
                   opacity={0.5}
                 />
                 <Line
                   dataKey="moving_avg"
                   name="4-Week Avg"
-                  stroke="oklch(0.50 0.10 155)"
+                  stroke="hsl(155, 35%, 40%)"
                   strokeWidth={2}
                   dot={false}
                   type="monotone"
@@ -158,21 +158,21 @@ export function ProductionRollUp() {
                 <Tooltip formatter={(v: unknown) => `${v}%`} />
                 <ReferenceLine
                   y={18}
-                  stroke="oklch(0.52 0.16 30)"
+                  stroke="hsl(10, 65%, 40%)"
                   strokeDasharray="4 4"
                   label={{
                     value: "18% Target",
                     position: "right",
                     fontSize: 11,
-                    fill: "oklch(0.52 0.16 30)",
+                    fill: "hsl(10, 65%, 40%)",
                   }}
                 />
                 <Line
                   dataKey="rate"
                   name="Waste Rate"
-                  stroke="oklch(0.35 0.08 40)"
+                  stroke="hsl(20, 55%, 28%)"
                   strokeWidth={2}
-                  dot={{ r: 4, fill: "oklch(0.35 0.08 40)" }}
+                  dot={{ r: 4, fill: "hsl(20, 55%, 28%)" }}
                   type="monotone"
                 />
               </LineChart>
@@ -199,7 +199,7 @@ export function ProductionRollUp() {
                 <Bar
                   dataKey="rate"
                   name="Complaints/1000 lbs"
-                  fill="oklch(0.52 0.16 30)"
+                  fill="hsl(10, 65%, 40%)"
                   radius={[4, 4, 0, 0]}
                 />
               </BarChart>
