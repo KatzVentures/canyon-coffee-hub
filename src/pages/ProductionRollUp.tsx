@@ -155,7 +155,7 @@ export function ProductionRollUp() {
                   domain={[14, 20]}
                   tickFormatter={(v: number) => `${v}%`}
                 />
-                <Tooltip formatter={(v: number) => `${v}%`} />
+                <Tooltip formatter={(v: unknown) => `${v}%`} />
                 <ReferenceLine
                   y={18}
                   stroke="oklch(0.52 0.16 30)"

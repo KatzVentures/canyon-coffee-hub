@@ -10,16 +10,14 @@ import {
   Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription,
 } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { MetricCard } from "@/components/dashboard/MetricCard"
 import { StatusBadge } from "@/components/dashboard/StatusBadge"
 import {
-  Flame, Leaf, Package, AlertTriangle, Truck, ChevronRight,
+  Flame, Leaf, Package, AlertTriangle, ChevronRight,
 } from "lucide-react"
 import batchesDataRaw from "@/data/roast_batches.json"
 import greenCoffeeDataRaw from "@/data/green_coffee_inventory.json"
 import packagingData from "@/data/packaging_inventory.json"
-import ordersData from "@/data/orders.json"
 import csIssuesData from "@/data/cs_issues.json"
 import qualityInvestigationsData from "@/data/quality_investigations.json"
 import deliveriesData from "@/data/deliveries.json"
@@ -60,7 +58,7 @@ export function Production() {
   const updateBatchStatus = (batchId: string, newStatus: string) => {
     setBatches(prev => prev.map(b =>
       b.id === batchId
-        ? { ...b, status: newStatus, qc_pass: newStatus === "Approved" ? true : newStatus === "Flagged" ? false : b.qc_pass }
+        ? { ...b, status: newStatus, qc_pass: newStatus === "Approved" ? true : newStatus === "Flagged" ? false : b.qc_pass } as typeof b
         : b
     ))
     if (selectedBatch?.id === batchId) {

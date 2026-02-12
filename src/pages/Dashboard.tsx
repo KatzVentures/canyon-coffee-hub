@@ -32,6 +32,7 @@ export function Dashboard() {
   const newThisMonth = accountsData.filter(
     (a) => a.start_date && a.start_date.startsWith("2024-0")
   ).length
+  void newThisMonth
 
   // Pounds shipped this week (orders with status Delivered)
   const poundsShipped = ordersData
@@ -42,6 +43,7 @@ export function Dashboard() {
   const paidInvoices = invoicesData
     .filter((i) => i.payment_status === "Paid")
     .reduce((sum, i) => sum + i.amount, 0)
+  void paidInvoices
   const cashPosition = 48500 // realistic static value for prototype
 
   // Open quality issues
