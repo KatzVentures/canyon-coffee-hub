@@ -19,7 +19,7 @@ import { Separator } from "@/components/ui/separator"
 import { MetricCard } from "@/components/dashboard/MetricCard"
 import { StatusBadge } from "@/components/dashboard/StatusBadge"
 import {
-  Inbox, AlertTriangle, Truck, FileText, ChevronRight, Plus, Search,
+  Inbox, AlertTriangle, Truck, FileText, ChevronRight, Plus,
 } from "lucide-react"
 import csIssuesDataRaw from "@/data/cs_issues.json"
 import qualityInvestigationsDataRaw from "@/data/quality_investigations.json"
@@ -33,11 +33,40 @@ import { fmtCurrency, fmtDate } from "@/lib/formatters"
 const issueStatuses = ["Reported", "Investigating", "Escalated to Ben", "Resolved", "Closed"]
 const issueCategories = ["order status", "delivery", "quality", "invoice", "general"]
 
+interface CsIssue {
+  id: string
+  issue_number: string
+  account_id: string
+  category: string
+  description: string
+  reported_by: string
+  reported_date: string
+  assigned_to: string
+  resolution_notes: string | null
+  resolution_date: string | null
+  status: string
+  order_id: string | null
+  delivery_id: string | null
+  batch_id: string | null
+}
+
+interface QualityInvestigation {
+  id: string
+  investigation_number: string
+  linked_cs_issue: string
+  linked_batches: string[]
+  symptom_description: string
+  root_cause: string | null
+  corrective_action: string | null
+  investigation_hours: number
+  status: string
+}
+
 export function CustomerInbox() {
-  const [issues, setIssues] = useState(csIssuesDataRaw.map(i => ({ ...i })))
-  const [investigations, setInvestigations] = useState(qualityInvestigationsDataRaw.map(q => ({ ...q })))
-  const [selectedIssue, setSelectedIssue] = useState<typeof issues[0] | null>(null)
-  const [selectedInvestigation, setSelectedInvestigation] = useState<typeof investigations[0] | null>(null)
+  const [issues, setIssues] = useState<CsIssue[]>(csIssuesDataRaw.map(i => ({ ...i })) as CsIssue[])
+  const [investigations, setInvestigations] = useState<QualityInvestigation[]>(qualityInvestigationsDataRaw.map(q => ({ ...q })) as QualityInvestigation[])
+  const [selectedIssue, setSelectedIssue] = useState<CsIssue | null>(null)
+  const [selectedInvestigation, setSelectedInvestigation] = useState<QualityInvestigation | null>(null)
   const [filterCategory, setFilterCategory] = useState("all")
   const [filterStatus, setFilterStatus] = useState("all")
   const [showNewIssue, setShowNewIssue] = useState(false)

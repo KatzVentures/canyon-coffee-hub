@@ -18,7 +18,7 @@ import { Label } from "@/components/ui/label"
 import { MetricCard } from "@/components/dashboard/MetricCard"
 import { StatusBadge } from "@/components/dashboard/StatusBadge"
 import {
-  Target, Clock, UserPlus, DollarSign, ChevronRight, Plus,
+  Target, Clock, UserPlus, ChevronRight, Plus,
   CheckCircle2, Circle, AlertTriangle,
 } from "lucide-react"
 import accountsDataRaw from "@/data/accounts.json"
@@ -26,7 +26,7 @@ import contactsData from "@/data/contacts.json"
 import proposalsData from "@/data/proposals.json"
 import ordersData from "@/data/orders.json"
 import { employeeName } from "@/lib/lookups"
-import { fmtCurrency, fmtDate, fmtDateFull } from "@/lib/formatters"
+import { fmtCurrency, fmtDateFull } from "@/lib/formatters"
 
 const pipelineStages = ["Prospect", "Sample Sent", "Tasting", "Proposal", "Won", "Lost"]
 const accountTypes = ["cafe", "restaurant", "hotel", "office"]

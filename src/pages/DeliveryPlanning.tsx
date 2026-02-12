@@ -13,9 +13,7 @@ import { DeferredBadge } from "@/components/dashboard/DeferredBadge"
 import { Truck, MapPin, AlertTriangle } from "lucide-react"
 import deliveriesData from "@/data/deliveries.json"
 import routesData from "@/data/routes.json"
-import ordersData from "@/data/orders.json"
 import { employeeName } from "@/lib/lookups"
-import { accountName } from "@/lib/lookups"
 
 export function DeliveryPlanning() {
   const todayDeliveries = deliveriesData.filter(
