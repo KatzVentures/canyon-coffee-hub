@@ -1,0 +1,8 @@
+[
+  {"id": "del-001", "delivery_date": "2025-02-04", "driver": "emp-016", "route_id": "route-001", "stop_count": 5, "total_weight": 210, "departure_time": "06:30", "completion_time": null, "delivery_notes": "", "status": "Loaded", "order_ids": ["ord-006", "ord-007", "ord-011"]},
+  {"id": "del-002", "delivery_date": "2025-02-04", "driver": "emp-017", "route_id": "route-002", "stop_count": 3, "total_weight": 85, "departure_time": "07:00", "completion_time": null, "delivery_notes": "", "status": "Planned", "order_ids": ["ord-008"]},
+  {"id": "del-003", "delivery_date": "2025-02-04", "driver": "emp-018", "route_id": "route-003", "stop_count": 3, "total_weight": 65, "departure_time": "07:30", "completion_time": null, "delivery_notes": "", "status": "Planned", "order_ids": ["ord-009", "ord-010"]},
+  {"id": "del-004", "delivery_date": "2025-02-03", "driver": "emp-016", "route_id": "route-001", "stop_count": 5, "total_weight": 190, "departure_time": "06:30", "completion_time": "10:15", "delivery_notes": "All stops completed", "status": "Completed", "order_ids": ["ord-001", "ord-002"]},
+  {"id": "del-005", "delivery_date": "2025-02-03", "driver": "emp-017", "route_id": "route-002", "stop_count": 4, "total_weight": 120, "departure_time": "07:00", "completion_time": "11:30", "delivery_notes": "Mountain Lodge delivery left at side entrance", "status": "Completed", "order_ids": ["ord-003"]},
+  {"id": "del-006", "delivery_date": "2025-02-03", "driver": "emp-019", "route_id": "route-004", "stop_count": 3, "total_weight": 85, "departure_time": "06:00", "completion_time": "12:45", "delivery_notes": "Cedar Valley — closed early, left with neighbor", "status": "Exception", "order_ids": []}
+]

@@ -1,0 +1,4 @@
+[
+  {"id": "qi-001", "investigation_number": "QI-2025-008", "linked_cs_issue": "issue-005", "linked_batches": ["batch-010"], "symptom_description": "House Blend roast color lighter than expected, Riverside Café reports inconsistency", "root_cause": "Roast temperature 8°F above profile — thermocouple calibration drift", "corrective_action": "Recalibrated thermocouple. Pulled remaining Batch B-2025-0115 inventory. Added thermocouple check to weekly PM.", "investigation_hours": 2.5, "status": "Closed"},
+  {"id": "qi-002", "investigation_number": "QI-2025-009", "linked_cs_issue": "issue-001", "linked_batches": ["batch-010"], "symptom_description": "Woodlands Hotel reports 'burnt taste' in House Blend — may be same batch as QI-2025-008", "root_cause": null, "corrective_action": null, "investigation_hours": 1.0, "status": "Batch Identified"}
+]

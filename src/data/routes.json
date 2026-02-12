@@ -1,0 +1,6 @@
+[
+  {"id": "route-001", "route_name": "Downtown Asheville AM", "driver": "emp-016", "days_of_week": "Mon, Tue, Wed, Thu, Fri", "stop_count": 7, "estimated_duration": "3.5 hrs", "coverage_area": "Downtown Asheville", "status": "Active"},
+  {"id": "route-002", "route_name": "North Asheville / Weaverville", "driver": "emp-017", "days_of_week": "Mon, Wed, Fri", "stop_count": 5, "estimated_duration": "4 hrs", "coverage_area": "North Asheville, Weaverville, Black Mountain", "status": "Active"},
+  {"id": "route-003", "route_name": "South Asheville / Biltmore", "driver": "emp-018", "days_of_week": "Tue, Thu", "stop_count": 4, "estimated_duration": "3 hrs", "coverage_area": "South Asheville, Biltmore area", "status": "Active"},
+  {"id": "route-004", "route_name": "Outlying / Weekly", "driver": "emp-019", "days_of_week": "Wed, Fri", "stop_count": 5, "estimated_duration": "5 hrs", "coverage_area": "Waynesville, Hendersonville, Brevard, Flat Rock", "status": "Active"}
+]

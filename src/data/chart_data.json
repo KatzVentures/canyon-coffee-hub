@@ -1,0 +1,41 @@
+{
+  "weekly_throughput": [
+    {"week": "Dec 9", "planned": 500, "actual": 485, "moving_avg": 490},
+    {"week": "Dec 16", "planned": 520, "actual": 510, "moving_avg": 492},
+    {"week": "Dec 23", "planned": 480, "actual": 465, "moving_avg": 487},
+    {"week": "Dec 30", "planned": 460, "actual": 450, "moving_avg": 478},
+    {"week": "Jan 6", "planned": 520, "actual": 505, "moving_avg": 483},
+    {"week": "Jan 13", "planned": 540, "actual": 525, "moving_avg": 496},
+    {"week": "Jan 20", "planned": 530, "actual": 515, "moving_avg": 499},
+    {"week": "Jan 27", "planned": 550, "actual": 540, "moving_avg": 521},
+    {"week": "Feb 3", "planned": 560, "actual": 480, "moving_avg": 515}
+  ],
+  "weekly_waste_rate": [
+    {"week": "Dec 9", "rate": 16.5},
+    {"week": "Dec 16", "rate": 16.8},
+    {"week": "Dec 23", "rate": 17.2},
+    {"week": "Dec 30", "rate": 16.4},
+    {"week": "Jan 6", "rate": 16.8},
+    {"week": "Jan 13", "rate": 17.5},
+    {"week": "Jan 20", "rate": 18.2},
+    {"week": "Jan 27", "rate": 17.8},
+    {"week": "Feb 3", "rate": 17.1}
+  ],
+  "quality_complaints_per_1000": [
+    {"month": "Oct 2024", "rate": 1.8},
+    {"month": "Nov 2024", "rate": 2.1},
+    {"month": "Dec 2024", "rate": 1.5},
+    {"month": "Jan 2025", "rate": 3.2},
+    {"month": "Feb 2025", "rate": 2.5}
+  ],
+  "inventory_runway": [
+    {"origin": "Colombia Huila", "weeks_supply": 8.5, "status": "In Storage"},
+    {"origin": "Ethiopia Yirgacheffe", "weeks_supply": 2.0, "status": "Low Stock"},
+    {"origin": "Brazil Santos", "weeks_supply": 14.0, "status": "In Storage"},
+    {"origin": "Guatemala Antigua", "weeks_supply": 1.3, "status": "Low Stock"},
+    {"origin": "Sumatra Mandheling", "weeks_supply": 6.0, "status": "In Storage"},
+    {"origin": "Kenya AA Nyeri", "weeks_supply": 4.5, "status": "In Storage"},
+    {"origin": "Mexico Chiapas", "weeks_supply": 9.0, "status": "In Storage"},
+    {"origin": "Costa Rica Tarrazú", "weeks_supply": 0, "status": "Depleted"}
+  ]
+}

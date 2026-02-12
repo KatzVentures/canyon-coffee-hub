@@ -1,0 +1,13 @@
+[
+  {"id": "cont-001", "name": "Jake Rivera", "role": "General Manager", "email": "jake@mountainlodge.com", "phone": "828-555-0101", "primary_contact": true, "account_id": "acct-001"},
+  {"id": "cont-002", "name": "Linda Park", "role": "F&B Director", "email": "linda@mountainlodge.com", "phone": "828-555-0102", "primary_contact": false, "account_id": "acct-001"},
+  {"id": "cont-003", "name": "Sam Chen", "role": "Owner", "email": "sam@riversidecafe.com", "phone": "828-555-0201", "primary_contact": true, "account_id": "acct-002"},
+  {"id": "cont-004", "name": "Brian Kelly", "role": "Kitchen Manager", "email": "brian@blueridgebrewing.com", "phone": "828-555-0301", "primary_contact": true, "account_id": "acct-003"},
+  {"id": "cont-005", "name": "Angela Morris", "role": "F&B Director", "email": "angela@woodlandshotel.com", "phone": "828-555-0401", "primary_contact": true, "account_id": "acct-004"},
+  {"id": "cont-006", "name": "Pete Lawson", "role": "Owner", "email": "pete@dailygrind.com", "phone": "828-555-0501", "primary_contact": true, "account_id": "acct-005"},
+  {"id": "cont-007", "name": "Rebecca Tran", "role": "Office Manager", "email": "rebecca@techhub.com", "phone": "828-555-0601", "primary_contact": true, "account_id": "acct-006"},
+  {"id": "cont-008", "name": "David Russo", "role": "Chef/Owner", "email": "david@appalachianbistro.com", "phone": "828-555-0701", "primary_contact": true, "account_id": "acct-007"},
+  {"id": "cont-009", "name": "Jenny Wu", "role": "Owner", "email": "jenny@sunrisebakery.com", "phone": "828-555-0801", "primary_contact": true, "account_id": "acct-008"},
+  {"id": "cont-010", "name": "Tom Hartley", "role": "Facilities Manager", "email": "tom@biltmoreoffice.com", "phone": "828-555-0901", "primary_contact": true, "account_id": "acct-009"},
+  {"id": "cont-011", "name": "Sarah Kim", "role": "Owner", "email": "sarah@summitcenter.com", "phone": "828-555-2101", "primary_contact": true, "account_id": "acct-021"}
+]

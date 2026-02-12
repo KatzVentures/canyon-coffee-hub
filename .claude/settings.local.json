@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(git -C \"/Users/jasonkatz/Desktop/Vibe Code/MVP Prototypes/mvp-coding-context/Canyon-Coffee-Prototype\" status)",
+      "Bash(wc:*)",
+      "Bash(gh auth status:*)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

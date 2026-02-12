@@ -1,0 +1,8 @@
+[
+  {"id": "pkg-001", "item": "bags", "size": "12 oz", "quantity_on_hand": 2400, "reorder_point": 1000, "supplier": "Pacific Bag", "last_reorder_date": "2025-01-10", "status": "In Stock"},
+  {"id": "pkg-002", "item": "bags", "size": "2 lb", "quantity_on_hand": 800, "reorder_point": 500, "supplier": "Pacific Bag", "last_reorder_date": "2025-01-10", "status": "In Stock"},
+  {"id": "pkg-003", "item": "bags", "size": "5 lb", "quantity_on_hand": 350, "reorder_point": 200, "supplier": "Pacific Bag", "last_reorder_date": "2024-12-15", "status": "In Stock"},
+  {"id": "pkg-004", "item": "labels", "size": "Standard", "quantity_on_hand": 150, "reorder_point": 500, "supplier": "Sticker Mule", "last_reorder_date": "2024-11-20", "status": "Low Stock"},
+  {"id": "pkg-005", "item": "boxes", "size": "Shipping (12-pack)", "quantity_on_hand": 180, "reorder_point": 100, "supplier": "Uline", "last_reorder_date": "2024-12-01", "status": "In Stock"},
+  {"id": "pkg-006", "item": "labels", "size": "Wholesale bulk", "quantity_on_hand": 3000, "reorder_point": 1000, "supplier": "Sticker Mule", "last_reorder_date": "2025-01-15", "status": "In Stock"}
+]

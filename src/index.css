@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Canyon Coffee brand palette — warm earth tones */
+  --color-background: oklch(0.98 0.005 80);
+  --color-foreground: oklch(0.22 0.01 260);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.22 0.01 260);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.22 0.01 260);
+  --color-primary: oklch(0.35 0.08 40);
+  --color-primary-foreground: oklch(1 0 0);
+  --color-secondary: oklch(0.96 0.01 70);
+  --color-secondary-foreground: oklch(0.22 0.01 260);
+  --color-muted: oklch(0.96 0.01 70);
+  --color-muted-foreground: oklch(0.52 0.02 260);
+  --color-accent: oklch(0.96 0.01 70);
+  --color-accent-foreground: oklch(0.22 0.01 260);
+  --color-destructive: oklch(0.52 0.16 30);
+  --color-destructive-foreground: oklch(1 0 0);
+  --color-border: oklch(0.92 0.005 70);
+  --color-input: oklch(0.92 0.005 70);
+  --color-ring: oklch(0.35 0.08 40);
+  --color-chart-1: oklch(0.35 0.08 40);
+  --color-chart-2: oklch(0.74 0.09 65);
+  --color-chart-3: oklch(0.50 0.10 155);
+  --color-chart-4: oklch(0.52 0.16 30);
+  --color-chart-5: oklch(0.60 0.08 260);
+  --color-sidebar: oklch(0.35 0.08 40);
+  --color-sidebar-foreground: oklch(1 0 0);
+  --color-sidebar-primary: oklch(1 0 0);
+  --color-sidebar-primary-foreground: oklch(0.35 0.08 40);
+  --color-sidebar-accent: oklch(0.30 0.07 40);
+  --color-sidebar-accent-foreground: oklch(1 0 0);
+  --color-sidebar-border: oklch(0.30 0.07 40);
+  --color-sidebar-ring: oklch(1 0 0);
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    margin: 0;
+  }
+}

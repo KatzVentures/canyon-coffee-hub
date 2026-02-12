@@ -1,0 +1,12 @@
+[
+  {"id": "inv-001", "invoice_number": "INV-2025-0180", "account_id": "acct-001", "amount": 3680, "issued_date": "2025-01-31", "due_date": "2025-03-02", "payment_status": "Sent", "payment_date": null, "days_outstanding": 4},
+  {"id": "inv-002", "invoice_number": "INV-2025-0181", "account_id": "acct-004", "amount": 2760, "issued_date": "2025-01-31", "due_date": "2025-03-02", "payment_status": "Sent", "payment_date": null, "days_outstanding": 4},
+  {"id": "inv-003", "invoice_number": "INV-2025-0175", "account_id": "acct-010", "amount": 2070, "issued_date": "2025-01-15", "due_date": "2025-02-14", "payment_status": "Overdue", "payment_date": null, "days_outstanding": 20},
+  {"id": "inv-004", "invoice_number": "INV-2025-0170", "account_id": "acct-013", "amount": 1600, "issued_date": "2025-01-01", "due_date": "2025-02-15", "payment_status": "Outstanding", "payment_date": null, "days_outstanding": 34},
+  {"id": "inv-005", "invoice_number": "INV-2025-0160", "account_id": "acct-015", "amount": 1120, "issued_date": "2024-12-31", "due_date": "2025-01-30", "payment_status": "Overdue", "payment_date": null, "days_outstanding": 35},
+  {"id": "inv-006", "invoice_number": "INV-2025-0155", "account_id": "acct-017", "amount": 1440, "issued_date": "2024-12-15", "due_date": "2025-01-14", "payment_status": "Paid", "payment_date": "2025-01-12", "days_outstanding": 0},
+  {"id": "inv-007", "invoice_number": "INV-2025-0176", "account_id": "acct-008", "amount": 2300, "issued_date": "2025-01-15", "due_date": "2025-01-30", "payment_status": "Paid", "payment_date": "2025-01-28", "days_outstanding": 0},
+  {"id": "inv-008", "invoice_number": "INV-2025-0177", "account_id": "acct-002", "amount": 960, "issued_date": "2025-01-15", "due_date": "2025-01-30", "payment_status": "Paid", "payment_date": "2025-01-29", "days_outstanding": 0},
+  {"id": "inv-009", "invoice_number": "INV-2025-0182", "account_id": "acct-028", "amount": 560, "issued_date": "2025-01-31", "due_date": "2025-03-02", "payment_status": "Sent", "payment_date": null, "days_outstanding": 4},
+  {"id": "inv-010", "invoice_number": "INV-2025-0165", "account_id": "acct-006", "amount": 960, "issued_date": "2024-12-31", "due_date": "2025-01-30", "payment_status": "Overdue", "payment_date": null, "days_outstanding": 35}
+]
